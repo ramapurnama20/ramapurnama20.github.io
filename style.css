@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.floating-button {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #303449;
+  color: white;
+}
+
+.titlebar {
+  background-color: #103440;
+  color: white;
+  padding: 10px 15px;
+}
+
+.card {
+  background-color: #dddd;
+  padding: 20px 30px;
+  box-shadow: 0 0 5px 5px #103440;
+  max-width: 1200px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: disc;
+}
+
+body > main {
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
